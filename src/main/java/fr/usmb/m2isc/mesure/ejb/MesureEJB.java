@@ -3,12 +3,12 @@ package fr.usmb.m2isc.mesure.ejb;
 import java.util.LinkedList;
 import java.util.List;
 
-import javax.annotation.sql.DataSourceDefinition;
-import javax.ejb.LocalBean;
-import javax.ejb.Stateless;
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
-import javax.persistence.TypedQuery;
+import jakarta.annotation.sql.DataSourceDefinition;
+import jakarta.ejb.LocalBean;
+import jakarta.ejb.Stateless;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
+import jakarta.persistence.TypedQuery;
 
 import fr.usmb.m2isc.mesure.jpa.Mesure;
 

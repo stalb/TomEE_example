@@ -3,5 +3,5 @@ WORKDIR /usr/app
 COPY . /usr/app/
 RUN gradle build 
 
-FROM tomee:8.0.15-webprofile
+FROM tomee:9.0.0-webprofile
 COPY --from=build /usr/app/build/libs/mesures.war /usr/local/tomee/webapps/mesures.war
