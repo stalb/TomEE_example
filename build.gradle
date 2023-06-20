@@ -1,0 +1,19 @@
+plugins {
+    id 'war'
+}
+
+repositories {
+    mavenCentral()
+}
+
+// java version: source and bytecode 
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    providedCompile group: 'jakarta.platform', name: 'jakarta.jakartaee-web-api', version: '8.0.0'
+    implementation 'org.postgresql:postgresql:42.2.8'
+}
+
+// encodage des fichIers en UTF8
+compileJava.options.encoding = 'UTF-8'

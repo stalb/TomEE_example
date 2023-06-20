@@ -1,0 +1,30 @@
+# gradle
+/.gradle/
+
+# ignore eclipse conf
+/.classpath
+/.project
+/.settings/
+# ignore intellij conf
+/*.iml
+/.idea/
+# vscode
+.vscode
+
+# build artefacts
+/out/
+/bin/
+/build/
+
+# Docker
+/Dockerfile
+/compose.yaml
+
+
+# git
+/.git/
+/.gitignore
+/.gitattributes
+
+# doc
+**/*.md

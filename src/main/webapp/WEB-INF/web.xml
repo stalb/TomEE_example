@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>mesures</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <!-- non working data-source example -->
+<!-- 
+  <data-source>
+    <name>java:app/env/jdbc/MyDataSource</name>
+    <class-name>org.postgresql.ds.PGSimpleDataSource</class-name>
+    <server-name>pgserver</server-name>
+    <port-number>3306</port-number>
+    <database-name>mesures</database-name>
+    <user>admin</user>
+    <password>admin</password>
+  </data-source>
+ -->
+  <!-- working data-source example -->
+<!-- 
+  <data-source>
+    <name>java:app/env/jdbc/MyDataSource</name>
+    <class-name>org.postgresql.ds.PGSimpleDataSource</class-name>
+    <url>jdbc:postgresql://pgserver:5432/mesures</url>
+    <property><name>user</name><value>admin</value></property>
+    <property><name>password</name><value>admin</value></property>
+  </data-source>
+ -->
+</web-app>

@@ -1,0 +1,17 @@
+# gradle
+/.gradle/
+
+# ignore eclipse conf
+/.classpath
+/.project
+/.settings/
+# ignore intellij conf
+/*.iml
+/.idea/
+# vscode
+.vscode
+
+# build artefacts
+/out/
+/bin/
+/build/
